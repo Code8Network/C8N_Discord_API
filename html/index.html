@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>C8N Discord API Splash</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="splash" class="hidden">
+        <div class="backdrop"></div>
+        <div class="card">
+            <img id="guildIcon" src="" alt="" />
+            <h1 id="title">Welcome</h1>
+            <h2 id="subtitle"></h2>
+
+            <div class="stats">
+                <div><span id="guildName">-</span></div>
+                <div><span id="memberCount">0</span> Members &bull; <span id="onlineCount">0</span> Online</div>
+            </div>
+
+            <div class="buttons">
+                <button id="btnDiscord" class="discord">Discord</button>
+                <button id="btnWebsite" class="website">Website</button>
+                <button id="btnClose" class="close">Close</button>
+            </div>
+
+            <div id="copied" class="copied hidden">Link shown - copy from console</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
